@@ -1,0 +1,64 @@
+.btn-primary{
+	background-color: rgb(0, 0, 0);
+}
+
+#services{
+	background-color: rgb(234, 118, 0);
+	color: rgb(255, 255, 255);
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+}
+
+.speech-bubble {
+	background: #efefef;
+	border-radius: 30px;
+	font-size: 24px;
+	line-height: 1,5;
+	margin: 0 auto 40px;
+	max-width: 600px;
+	padding: 30px;
+	position: relative;
+		p {
+	  margin: 0 0 10px;
+  
+	  :last-of-type {
+		margin-bottom: 0;
+	  }
+	}
+  
+	&::after {
+	  border-left: 20px solid transparent;
+	  border-top: 20px solid #efefef;
+	  bottom: -20px;
+	  content: "";
+	  position: absolute;
+	  right: 20px;
+	}
+  }
+  a {
+	color: blue;
+	text-decoration: underline;
+	}
+
+	.b {
+		border-left: 60px solid transparent;
+		border-right: 60px solid transparent;
+		border-top: 60px solid rgb(255, 255, 255);
+		width: 0;
+		height: 0;
+	}
+
+	
+
+
+
+
+
+
+
+	
+
+	
